@@ -1,5 +1,5 @@
 import csv
-from datetime import date,timedelta
+from datetime import date, timedelta
 
 
 def fetch_daily_tasks():
@@ -8,6 +8,8 @@ def fetch_daily_tasks():
         datalist = list(rawdata)
 
     return datalist[1:]
+
+
 
 
 def fetch_lastweek():
